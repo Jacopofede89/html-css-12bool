@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    min-height: 50px;
+    max-height: 70px;
+    background-color:rgba(0,108,250,255);
+    border: solid 1px white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#green{
+    height: 30px;
+    background-color:green;
+    border: solid 1px white;
+}
